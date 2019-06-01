@@ -8,8 +8,14 @@ export const elevator1 = (input) => {
 
 export const elevator2 = (input) => {
   let floor = 0;
-  input.split('').forEach((dir) => {
+  let position;
+  input.split('').some((dir, index) => {
     floor += dir === '(' ? 1 : -1;
-  })
-  return floor;
+    if(floor === -1) {
+      position = index + 1;
+      return true;
+    }
+    return false;
+  });
+  return position;
 }
