@@ -1,0 +1,25 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubbit/adventofcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubbit/adventofcode/issues"
+  },
+  "homepage": "https://github.com/Bubbit/adventofcode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "mocha": "^6.1.4"
+  }
+}
