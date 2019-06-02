@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.spec.js --require @babel/register"
+    "test": "mocha **/*.spec.js --require @babel/register",
+    "test:day1": "mocha day1/*.spec.js --require @babel/register",
+    "test:day2": "mocha day2/*.spec.js --require @babel/register",
+    "test:day3": "mocha day3/*.spec.js --require @babel/register",
+    "test:day4": "mocha day4/*.spec.js --require @babel/register",
   },
   "repository": {
     "type": "git",
