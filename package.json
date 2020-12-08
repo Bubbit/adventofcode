@@ -1,0 +1,54 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day1": "mocha day1/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day2": "mocha day2/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day3": "mocha day3/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day4": "mocha day4/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day5": "mocha day5/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day6": "mocha day6/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day7": "mocha day7/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day8": "mocha day8/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day9": "mocha day9/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day10": "mocha day10/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day11": "mocha day11/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day12": "mocha day12/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day13": "mocha day13/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day14": "mocha day14/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day15": "mocha day15/*.spec.js --require @babel/register --require @babel/polyfill",    
+    "test:day16": "mocha day16/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day17": "mocha day17/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day18": "mocha day18/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day19": "mocha day19/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day20": "mocha day20/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day21": "mocha day21/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day22": "mocha day22/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day23": "mocha day23/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day24": "mocha day24/*.spec.js --require @babel/register --require @babel/polyfill",
+    "test:day25": "mocha day25/*.spec.js --require @babel/register --require @babel/polyfill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubbit/adventofcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubbit/adventofcode/issues"
+  },
+  "homepage": "https://github.com/Bubbit/adventofcode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
