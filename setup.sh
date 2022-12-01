@@ -39,6 +39,7 @@ if [[ "day$1" ]]; then
     if ! [[ -f "$solution_file" ]]; then
 	echo "Create dummy python solution $solution_file"
 	cp "../../setup.py" "$solution_file"
+    cp "../../utils/input_reader.py" "input_reader.py"
     fi
 
 
