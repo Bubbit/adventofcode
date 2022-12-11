@@ -28,7 +28,7 @@ if [[ "day$1" ]]; then
     fi
 
     # Add empty file so there are not that many lines when showing input instead
-    input_ans_file="${input_prefix}.ans"
+    input_ans_file="test_input.in"
     if ! [[ -f "$input_ans_file" ]]; then
 	echo "Create empty input answer file"
 	touch "$input_ans_file"

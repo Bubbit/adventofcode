@@ -7,6 +7,9 @@
 <a href="2022/day1/input_reader.py">
   <img src="Media/2022/01.png" width="161px">
 </a>
+<a href="2022/day10/day10.py">
+  <img src="Media/2022/10.png" width="161px">
+</a>
 <a href="2022/day2/day2.py">
   <img src="Media/2022/02.png" width="161px">
 </a>
@@ -15,6 +18,21 @@
 </a>
 <a href="2022/day4/input_reader.py">
   <img src="Media/2022/04.png" width="161px">
+</a>
+<a href="2022/day5/input_reader.py">
+  <img src="Media/2022/05.png" width="161px">
+</a>
+<a href="2022/day6/day6.py">
+  <img src="Media/2022/06.png" width="161px">
+</a>
+<a href="2022/day7/day7.py">
+  <img src="Media/2022/07.png" width="161px">
+</a>
+<a href="2022/day8/day8.py">
+  <img src="Media/2022/08.png" width="161px">
+</a>
+<a href="2022/day9/day9.py">
+  <img src="Media/2022/09.png" width="161px">
 </a>
 <h1 align="center">
   2021 - 36 ⭐
