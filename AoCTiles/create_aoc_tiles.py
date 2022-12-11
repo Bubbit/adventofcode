@@ -270,7 +270,7 @@ def handle_day(day: int, year: int, day_path: Path, html: HTML, day_scores: DayS
     languages = []
     solution_file_path = None
     if day_path is not None:
-        for file_path in day_path.glob("*"):
+        for file_path in day_path.glob("day*"):
             if file_path.is_file():
                 if file_path.suffix.lower() in extension_to_color:
                     if solution_file_path is None:
